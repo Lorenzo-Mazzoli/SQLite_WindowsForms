@@ -1,0 +1,7 @@
+# Selezionare tutti i piloti del database
+Select * from Pilota
+# Selezionare i circuiti del database
+Select * from Circuito
+# Selezionare i Piloti italiani
+Select * from Pilota 
+where nazionalità = "Italia"
